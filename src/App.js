@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LifeCycleEx from './R004_LifeCycleEx'
+import LifeCycleEx from './R005_LifeCycleEx'
 
 function App() {
   return (
