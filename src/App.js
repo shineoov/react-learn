@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import PropsObjVal from './R020_PropsObjVal'
+import PropsDefault from './R022_PropsDefault'
 
 function App() {
   return (
     <div>
         <h1>Start React 200!</h1>
         <p>HTML 적용하기!</p>
-        <PropsObjVal Object Json={{react:"리액트!", twohundred:"200"}}/>
+        <PropsDefault ReactNumber={200}/>
     </div>
   );
 }
