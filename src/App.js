@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import PropsDefault from './R022_PropsDefault'
+import ReactState from './R024_ReactState'
 
 function App() {
   return (
     <div>
         <h1>Start React 200!</h1>
         <p>HTML 적용하기!</p>
-        <PropsDefault ReactNumber={200}/>
+        <ReactState reactString={"react!"}/>
     </div>
   );
 }
