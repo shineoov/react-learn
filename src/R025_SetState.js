@@ -4,7 +4,6 @@ class R025_SetState extends Component {
 
     constructor(props) {
         super(props);
-
         this.state = {
             StateString: 'react',
         }
