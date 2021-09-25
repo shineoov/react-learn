@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import ForceUpdate from './R026_ForceUpdate'
+import ShallowEqual from './R029_ShallowEqual'
 
 function App() {
   return (
     <div>
         <h1>Start React 200!</h1>
         <p>HTML 적용하기!</p>
-        <ForceUpdate/>
+        <ShallowEqual/>
     </div>
   );
 }
